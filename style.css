@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url("OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: MontSerrat;
+    src: url("Montserrat-Regular.ttf");
+}
+
+body {
+    font-family: OpenSans;
+}
+
+/* BLUE PART */
+/* BLUE PART */
+.bluePart {
+    background-color: #1ba0e3;
+    height: 200px;
+    padding-top: 40px;
+}
+
+/* Inside BLUE PART */
+.becomeAMemberText, .congratulationsText {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.theForm {
+    background-color: white;
+    width: 410px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    box-shadow: 2px 2px 20px;
+}
+
+.jumbotron {
+    background-color: white;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    box-shadow: 2px 2px 20px;
+}
+
+.joinUSText {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+hr.registration {
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.requiredText {
+    text-align: start;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    color: red;
+    font-size: 12px;
+    font-family: Arial;
+}
+
+.name, .birthday, .phoneNumber, .email, .password, .website, .gender {
+    text-align: start;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    font-family: MontSerrat;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+hr.feedback {
+    width: 350px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.accountActivateText {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #04BEFE;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.confirmDataText {
+    text-align: start;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.dataVerif {
+    text-align: start;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    color: #5c6268;
+}
+
+.kindOfData {
+    width: 140px;
+}
+
+input {
+    margin-top: 7px;
+    padding-left: 5px;
+    width: 370px;
+    height: 25px;
+    font-family: MontSerrat;
+}
+
+input.genderInput {
+    width: 20px;
+}
+
+.genderKindText {
+    font-weight: normal;
+}
+
+.buttonInput {
+    color: white;
+    background-color: rgb(249, 109, 1);
+    width: 270px;
+    height: 35px;
+    border: transparent;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+input.buttonInput:hover {
+    cursor: pointer;
+    background-color: rgb(237, 93, -15);
+}
+
+input.buttonInput:active {
+    cursor: pointer;
+    background-color: rgb(191, 51, -57);
+}
+
+.copy2021Traveloka {
+    color: slategrey;
+}
+
+/* GREY PART */
+/* GREY PART */
+.grayPartRegistration {
+    background-color: #e6eaed;
+    height: 450px;
+}
+
+.grayPartFeedback {
+    background-color: #e6eaed;
+    height: 300px;
+}
+
+/* BLACK PART */
+/* BLACK PART */
+.blackPartRegistration {
+    background-color: #1b1b1b;
+    height: 200px;
+    padding-top: 135px;
+}
+
+.blackPartFeedback {
+    background-color: #1b1b1b;
+    height: 200px;
+    padding-top: 30px;
+}
+
+.travelokaLogo{
+    width: 400px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
